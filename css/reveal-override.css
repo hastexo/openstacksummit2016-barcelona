@@ -8,6 +8,9 @@
   /* Make sure keyboard shortcuts help is visible */
   /* Blow iframe up to full screen size */
 }
+.reveal strong {
+  color: black;
+}
 .reveal section img {
   /* Disable background 4px border around images */
   border: none;
