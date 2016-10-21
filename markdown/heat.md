@@ -1,5 +1,4 @@
-# Heat
-(not an acronym)
+<!-- .slide: data-background-image="images/heat-logo.png" data-background-size="contain" -->
 
 
 # Heat

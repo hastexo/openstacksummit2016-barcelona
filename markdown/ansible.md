@@ -1,4 +1,4 @@
-# Ansible
+<!-- .slide: data-background-image="images/ansible-logo.svg" data-background-size="contain" -->
 
 
 ## Ansible 1.0
