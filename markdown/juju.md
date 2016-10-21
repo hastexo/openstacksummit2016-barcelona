@@ -4,10 +4,12 @@
 
 ## Juju providers
 
-### EC2 Azure **OpenStack** Google **Manual** vSphere Joyent LXD **Rackspace**
+### EC2 Azure **OpenStack** Google **Manual** vSphere MAAS Joyent LXD **Rackspace**
 
 
 ## Simplestreams
+
+Note: More information is available at https://jujucharms.com/docs/2.0/howto-privatecloud
 
 
 ### Simplestreams: create metadata
@@ -70,3 +72,14 @@ juju deploy -n 3 rabbitmq-server
 Note: Applications were called "services" in Juju 1.x; the terminology
 is changing for 2.x.
 
+
+## Juju 1.0:
+
+Infuriatingly close to awesome.
+
+
+## Juju 2.0:
+
+Everything has changed.
+
+And there's no upgrade path.  <!-- .element: class="fragment" -->
