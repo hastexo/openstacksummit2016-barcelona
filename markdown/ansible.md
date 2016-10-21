@@ -1,4 +1,4 @@
-# Ansible
+<!-- .slide: data-background-image="images/ansible-logo.svg" data-background-size="contain" -->
 
 
 ## Ansible 1.0
@@ -48,6 +48,7 @@ clouds:
   register: myimage
 ```
 
+
 ## Creating a VM
 ```yaml
 - name: create a nova server
@@ -60,6 +61,7 @@ clouds:
     image: "{{ myimage.image.id }}"
     flavor: m1.small
     key_name: my_ssh_key
+```
 
 
 ## Dynamic inventory

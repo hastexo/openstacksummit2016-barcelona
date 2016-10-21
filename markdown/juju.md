@@ -1,3 +1,6 @@
+<!-- .slide: data-background-image="images/juju-logo.svg" data-background-size="contain" -->
+
+
 # Juju
 # ~~MAAS~~ <!-- .element: class="fragment" -->
 
