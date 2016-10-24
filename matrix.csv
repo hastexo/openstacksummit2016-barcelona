@@ -1,0 +1,8 @@
+,Heat,Juju,Ansible,Cloudify
+OpenStack Native,☑,☒,☒,☒
+Standards Based,☒,☒,☒,☑
+Deploy OpenStack,☑,☑,☑,☒
+Customize Apps,☑,☹,☑,☑
+GUI,☑,☑,☒,☑
+Community Driven,☑,☒,☑,☒
+Run on any public OpenStack,☹,☒,☑,☑
