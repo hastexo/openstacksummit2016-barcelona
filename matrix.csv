@@ -1,8 +1,8 @@
 ,Heat,Juju,Ansible,Cloudify
-OpenStack Native,Yes,No,No,No
-Standards Based,No,No,No,Yes
-Deploy OpenStack,Yes,Yes,Yes,No
-Customize Apps,Yes,Limited,Yes,Yes
-GUI,Yes,Yes,No,Yes
-Community Driven,Yes,No,Yes,No
-Run on any public OpenStack,No,No,Yes,Yes
+OpenStack Native,☑,☒,☒,☒
+Standards Based,☒,☒,☒,☑
+Deploy OpenStack,☑,☑,☑,☒
+Customize Apps,☑,☹,☑,☑
+GUI,☑,☑,☒,☑
+Community Driven,☑,☒,☑,☒
+Run on any public OpenStack,☹,☒,☑,☑
