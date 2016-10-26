@@ -52,6 +52,10 @@ this stack
 heat stack-create -f stack.yml mystack
 ```
 
+```bash
+openstack stack create -t stack.yml mystack
+```
+
 
 But as it is,
 
@@ -104,6 +108,13 @@ these parameters
 heat stack-create -f stack.yml \
   -P key_name=mykey \
   -P image=cirros-0.3.3-x86_64 \
+  mystack
+```
+
+```bash
+openstack stack create -t stack.yml \
+  --parameter key_name=mykey \
+  --parameter image=cirros-0.3.3-x86_64 \
   mystack
 ```
 
@@ -253,6 +264,11 @@ outputs:
 
 ```bash
 heat output-show \
+  mystack public_ip
+```
+
+```bash
+openstack stack output show \
   mystack public_ip
 ```
 
