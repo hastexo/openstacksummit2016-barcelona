@@ -1,6 +1,9 @@
 <!-- .slide: data-background-image="images/heat-logo.png" data-background-size="contain" -->
 
 
+<!-- .slide: data-background-image="images/heat-logo-draft.png" data-background-size="contain" -->
+
+
 # Heat
 enables you to deploy
 ## complete
