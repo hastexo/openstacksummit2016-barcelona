@@ -1,6 +1,9 @@
 <!-- .slide: data-background-image="images/heat-logo.png" data-background-size="contain" -->
 
 
+<!-- .slide: data-background-image="images/heat-logo-draft.png" data-background-size="contain" -->
+
+
 # Heat
 enables you to deploy
 ## complete
@@ -121,7 +124,6 @@ openstack stack create -t stack.yml \
 
 How about we add some
 ## network connectivity
-Wouldn't that be nice?
 
 
 ### `OS::Neutron::Net`
@@ -277,21 +279,6 @@ Integrating
 # Heat
 with
 ## `cloud-init`
-
-
-```yaml
-  mybox:
-    type: "OS::Nova::Server"
-    properties:
-      name: deploy
-      image: { get_param: image }
-      flavor: { get_param: flavor }
-      key_name: { get_param: key_name }
-      networks:
-        - port: { get_resource: mybox_management_port }
-      user_data: { get_file: cloud-config.yml }
-      user_data_format: RAW
-```
 
 
 ### `OS::Heat::CloudConfig`
