@@ -24,6 +24,34 @@ Neutron LBaasv2 support was only added in Mitaka, whereas v1 was
 cloud providers not deploying every single OpenStack release.
 
 
+|          | Full-Stack Actions    |
+| -------- |:---------------------:|
+| Heat     | ☑                    |
+| Juju     | ☒                    |
+| Ansible  | ☒                    |
+| Cloudify | ☒                    |
+
+Note: Heat allows you to apply **actions** to the stack as a whole,
+such as suspending and resuming an entire stack. This can be a huge
+cost saver in public clouds. No other orchestration facility has this.
+
+
+|          | Native Scale-Out      |
+| -------- |:---------------------:|
+| Heat     | ☑                    |
+| Juju     | ☑                    |
+| Ansible  | ☒                    |
+| Cloudify | ☑                    |
+
+Note: Heat has a dedicated facility to "add more of X", with the
+`OS::Heat::ResourceGroup` resource type and parameters, and
+auto-scaling groups. Juju has `juju add-unit`, which easily spins up
+more instances of a given service, and connects them to already
+existing instances. Cloudify also supports native scale-out. Ansible
+does not; although scale-out can be achieved simply by running an
+additional playbook.
+
+
 |          | Standards Based       |
 | -------- |:---------------------:|
 | Heat     | ☒                    |
@@ -122,6 +150,8 @@ requires standard public OpenStack APIs.
 |                        | Heat      | Juju      | Ansible   | Cloudify  |
 | ---------------------- |:---------:|:---------:|:---------:|:---------:|
 | OpenStack Native       | ☑        | ☒        | ☒        | ☒        |
+| Full-Stack Actions     | ☑        | ☒        | ☒        | ☒        |
+| Native Scale-Out       | ☑        | ☑        | ☒        | ☑        |
 | Standards Based        | ☒        | ☒        | ☒        | ☑        |
 | Customize Apps         | ☑        | ☒        | ☑        | ☑        |
 | GUI                    | ☑        | ☑        | ☹        | ☑        |
