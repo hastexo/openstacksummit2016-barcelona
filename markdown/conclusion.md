@@ -155,7 +155,7 @@ requires standard public OpenStack APIs.
 | Standards Based        | ☒        | ☒        | ☒        | ☑        |
 | Customize Apps         | ☑        | ☒        | ☑        | ☑        |
 | GUI                    | ☑        | ☑        | ☹        | ☑        |
-| Community Driven       | ☑        | ☹        | ☒        | ☒        |
+| Community Driven       | ☑        | ☹        | ☑        | ☒        |
 | Any public OpenStack   | ☹        | ☒        | ☑        | ☑        |
 
 
