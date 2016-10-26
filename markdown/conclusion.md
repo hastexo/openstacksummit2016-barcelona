@@ -129,6 +129,20 @@ into API throttling issues with dynamic inventory. Cloudify, too, only
 requires standard public OpenStack APIs.
 
 
+<!-- .slide: data-background-image="images/matrix.gif" data-background-size="cover" -->
+
+
+
+|                        | Heat      | Juju      | Ansible   | Cloudify  |
+| ---------------------- |:---------:|:---------:|:---------:|:---------:|
+| OpenStack Native       | ☑        | ☒        | ☒        | ☒        |
+| Standards Based        | ☒        | ☒        | ☒        | ☑        |
+| Customize Apps         | ☑        | ☒        | ☑        | ☑        |
+| GUI                    | ☑        | ☑        | ☹        | ☑        |
+| Community Driven       | ☑        | ☹        | ☒        | ☒        |
+| Any public OpenStack   | ☹        | ☒        | ☑        | ☑        |
+
+
 Which should I choose?
 
 ```python
