@@ -8,8 +8,6 @@ frowny face (☹) means the authors would **like** for the feature to be
 fully supported and work well, but in all honesty it really doesn't.
 
 
-### OpenStack Native support
-
 |          | OpenStack Native      |
 | -------- |:---------------------:|
 | Heat     | ☑                    |
@@ -26,8 +24,6 @@ Neutron LBaasv2 support was only added in Mitaka, whereas v1 was
 cloud providers not deploying every single OpenStack release.
 
 
-### Standards Based
-
 |          | Standards Based       |
 | -------- |:---------------------:|
 | Heat     | ☒                    |
@@ -42,9 +38,7 @@ Juju nor Ansible attempt to implement any industry standard (YAML is
 just a syntax, not a standard).
 
 
-### Deploy OpenStack
-
-|          | Standards Based       |
+|          | Deploy OpenStack      |
 | -------- |:---------------------:|
 | Heat     | ☑                    |
 | Juju     | ☑                    |
@@ -55,8 +49,6 @@ Note: Heat (with Ironic), Juju (with the `manual` and MAAS providers),
 and Ansible (through OSA) can be used to deploy OpenStack itself, in
 addition to deploying applications _within_ OpenStack.
 
-
-### Customize Apps
 
 |          | Customize Apps        |
 | -------- |:---------------------:|
@@ -74,8 +66,6 @@ find that off-putting — it's a bit of an example of "make a tool that
 any fool can use, and only a fool will want to use it."
 
 
-### GUI
-
 |          | GUI                   |
 | -------- |:---------------------:|
 | Heat     | ☑                    |
@@ -89,8 +79,6 @@ great. Ansible has Ansible Tower, but it hasn't been open sourced more
 than a year post-acquisition (hello, Red Hat?), and Cloudify has
 Cloudify Manager.
 
-
-### Community Driven
 
 |          | Community Driven      |
 | -------- |:---------------------:|
@@ -108,8 +96,6 @@ contributions and they do get them for individual applications, but
 both the OpenStack charms and the OpenStack provider are almost 100%
 Canonical's work.
 
-
-### Run on any public OpenStack
 
 |          | Any public OpenStack  |
 | -------- |:---------------------:|
