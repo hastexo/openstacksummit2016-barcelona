@@ -112,7 +112,7 @@ Cloudify Manager.
 | -------- |:---------------------:|
 | Heat     | ☑                    |
 | Juju     | ☹                    |
-| Ansible  | ☹                    |
+| Ansible  | ☑                    |
 | Cloudify | ☒                    |
 
 Note: Heat is completely driven by the OpenStack developer
