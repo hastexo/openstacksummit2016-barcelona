@@ -132,7 +132,9 @@ Canonical's work.
 | Ansible  | ☑                    |
 | Cloudify | ☑                    |
 
-Note: You _should_ be able to run Heat templates, unmodified, against
+Note: **Matrix slide upcoming**
+
+You _should_ be able to run Heat templates, unmodified, against
 just about any OpenStack based public cloud out there. In reality,
 Heat support is sometimes lacking, or it may be that the provider
 simply omits a core OpenStack feature that your templates rely on
