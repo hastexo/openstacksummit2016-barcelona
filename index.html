@@ -26,7 +26,7 @@
     <div class="reveal">
       <div class="slides">
         <section id="qrcode" data-menu-title="QR code">
-          <div class="qrcode" id="qrcode-talk"/>
+          <div class="qrcode" id="qrcode-talk"></div>
           <p><a href="https://goo.gl/SbtYi9" target="_blank"
                 id="talk">https://goo.gl/SbtYi9</a></p>
         </section>
@@ -150,9 +150,9 @@ Reveal.initialize({
         { src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
         { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
         { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+        { src: 'reveal.js/plugin/multiplex/client.js', async: true },
         { src: 'reveal.js-menu/menu.js', async: true, condition: function() { return !!document.body.classList; } },
         { src: '//cdn.socket.io/socket.io-1.3.5.js', async: true },
-        { src: 'reveal.js/plugin/multiplex/client.js', async: true },
     ]
 });
     </script>
