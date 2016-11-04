@@ -76,7 +76,7 @@ Note: Applications were called "services" in Juju 1.x; the terminology
 is changing for 2.x.
 
 
-## Juju 1.0:
+## Juju 1.x:
 
 Infuriatingly close to awesome.
 
