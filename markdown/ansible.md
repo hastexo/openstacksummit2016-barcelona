@@ -1,7 +1,7 @@
 <!-- .slide: data-background-image="images/ansible-logo.svg" data-background-size="contain" -->
 
 
-## Ansible 1.0
+## Ansible 1.x
 ### built-in
 
 **Glance** glance_image **Keystone** keystone_user **Nova**
